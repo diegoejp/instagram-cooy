@@ -23,7 +23,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button> -->
             <div class="d-flex justify-content-end" id="navbarSupportedContent">
-                <button class="btn btn-success" type="submit">Add post</button>
+                <button class="btn btn-success" data-bs-toggle="modal" data-bs-target="#samia">Add post</button>
                 <ul class="navbar-nav mb-2 mb-lg-0">
 
 
@@ -65,7 +65,7 @@
     </ul>
     <div class="container">
         <div class="row">
-            <div class="col-4 mb-2" >
+            <div class="col-4 mb-2">
                 <img class="img-fluid" src="https://picsum.photos/id/876/300/300" alt="">
             </div>
             <div class="col-4 mb-2">
@@ -77,7 +77,7 @@
         </div>
         <div class="row">
             <div class="col-4 mb-2">
-                <img class="img-fluid" src="https://picsum.photos/id/457/300/300" alt="">
+                <img class="img-fluid" src="https://picsum.photos/id/447/300/300" alt="">
             </div>
             <div class="col-4 mb-2">
                 <img class="img-fluid" src="https://picsum.photos/id/667/300/300" alt="">
@@ -97,54 +97,36 @@
                 <img class="img-fluid" src="https://picsum.photos/id/87/300/300" alt="">
             </div>
         </div>
-        <div class="row">
-            <div class="col-4 mb-2">
-                <img class="img-fluid" src="https://picsum.photos/id/90/300/300" alt="">
-            </div>
-            <div class="col-4 mb-2">
-                <img class="img-fluid" src="https://picsum.photos/id/34/300/300" alt="">
-            </div>
-            <div class="col-4 mb-2">
-                <img class="img-fluid" src="https://picsum.photos/id/678/300/300" alt="">
-            </div>
-        </div>
-                <div class="row">
-            <div class="col-4 mb-2">
-                <img class="img-fluid" src="https://picsum.photos/id/90/300/300" alt="">
-            </div>
-            <div class="col-4 mb-2">
-                <img class="img-fluid" src="https://picsum.photos/id/34/300/300" alt="">
-            </div>
-            <div class="col-4 mb-2">
-                <img class="img-fluid" src="https://picsum.photos/id/678/300/300" alt="">
-            </div>
-        </div>
-                <div class="row">
-            <div class="col-4 mb-2">
-                <img class="img-fluid" src="https://picsum.photos/id/90/300/300" alt="">
-            </div>
-            <div class="col-4 mb-2">
-                <img class="img-fluid" src="https://picsum.photos/id/34/300/300" alt="">
-            </div>
-            <div class="col-4 mb-2">
-                <img class="img-fluid" src="https://picsum.photos/id/678/300/300" alt="">
-            </div>
-        </div>
-                <div class="row">
-            <div class="col-4 mb-2">
-                <img class="img-fluid" src="https://picsum.photos/id/90/300/300" alt="">
-            </div>
-            <div class="col-4 mb-2">
-                <img class="img-fluid" src="https://picsum.photos/id/34/300/300" alt="">
-            </div>
-            <div class="col-4 mb-2">
-                <img class="img-fluid" src="https://picsum.photos/id/678/300/300" alt="">
-            </div>
-        </div>
+
+
+
+       
     </div>
 
 
+    <!-- Modal -->
+    <div class="modal fade" id="samia" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- <div class="modal-header">
+          <h1>Agregar Post</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div> -->
+                <div class="modal-body align-self-center">
+                    <textarea name="" id="" cols="50" rows="3"></textarea>
+                    <div>
+                        <i class="fas fa-camera p-2"></i>
+                        <i class="fas fa-map-marker-alt p-2"></i>
 
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="button" class="btn btn-primary">Publicar</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 
